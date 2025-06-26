@@ -1,4 +1,4 @@
-public class tasksheet-1-1-2 {
+class tasksheet112{
 
     public static void main (String[] args){
           
