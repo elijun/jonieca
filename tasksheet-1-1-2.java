@@ -1,7 +1,6 @@
 class tasksheet112{
 
     public static void main (String[] args){
-          
         int result = 1 + 2; // result is now 3
         System.out.println(result);
 
@@ -17,6 +16,5 @@ class tasksheet112{
         result += 8; // result is now 10
         result %= 7; // result is now 3
         System.out.println(result);
-
     }
 }
