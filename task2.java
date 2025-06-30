@@ -7,9 +7,9 @@ public class task2 {
         String w = "w";
         String d = "d";
         String r = "r";
-        float twopointow = 2.0f;
+        float twoPoint = 2.0f;
         boolean T = true;
-        String output = H + three + one + one + zero + " " + w + zero + one + r + d + " " + twopointow + " " + T;
+        String output = H + three + one + one + zero + " " + w + zero + one + r + d + " " + twoPoint + " " + T;
         System.out.println(output);
     }
 }
