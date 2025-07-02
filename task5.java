@@ -12,7 +12,7 @@ public class task5 {
 
         List list = Arrays.asList(num1, num2, num3);
         System.out.println(list);
-        //Collections.sort(list);
+        Collections.sort(list);
         System.out.println("Largest Number: "+list.getLast());
     }
 }
