@@ -13,8 +13,10 @@ public class task6 {
 
         for (int x = 0; x <= numbers.length-1; x++){
             int even = numbers[x]%2;
-            if (even == 0 && numbers[x] <= 237){
+            if (even == 0){
                 System.out.println(numbers[x]);
+            } else if(numbers[x] == 237){
+                break;
             }
         }
     }
