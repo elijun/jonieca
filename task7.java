@@ -1,9 +1,16 @@
+import java.util.Scanner;
+
 public class task7 {
     public static void main(String[] args) {
-        System.out.println(sum(10,20));
-        System.out.println(diff(40,20));
-        System.out.println(product(16,3));
-        System.out.println(quotient(60,2));
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter First number:");
+        int num1 = scanner.nextInt();
+        System.out.print("Enter Second number:");
+        int num2 = scanner.nextInt();
+        System.out.println("Addition: "+sum(num1,num2));
+        System.out.println("Subtraction: "+diff(num1,num2));
+        System.out.println("Multiplication: "+product(num1,num2));
+        System.out.println("Division: "+quotient(num1,num2));
     }
 
     static int sum(int a, int b){
