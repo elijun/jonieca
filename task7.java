@@ -28,9 +28,9 @@ public class task7 {
         return result;
     }
 
-    static int quotient(float a, float b){
+    static float quotient(float a, float b){
         float result = a / b;
-        return (int) result;
+        return result;
     }
 
 }
