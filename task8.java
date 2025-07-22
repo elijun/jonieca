@@ -10,7 +10,6 @@ public class task8 {
         List arra = new ArrayList<>();
         List arrb = new ArrayList<>();
         List arrc = new ArrayList<>();
-
         for (int x = 1; x <= a; x++) {
             arra.add(x);
         }
